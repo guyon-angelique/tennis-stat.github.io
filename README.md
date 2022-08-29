@@ -1,3 +1,6 @@
+#projet présenté à openClassroom pour postuler à la formation en alternance javascript/react
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
