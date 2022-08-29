@@ -1,0 +1,6 @@
+if(powerOfLove > loveOfPower) {
+    world(peace)
+}
+else {
+    fatalERROR
+}

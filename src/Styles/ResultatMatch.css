@@ -1,0 +1,16 @@
+.detail-score {
+    text-align: center;
+    font-size:1.3em;
+}
+.action-fin-match {
+    display:flex;
+    justify-content: space-around;
+}
+.button-fin-match {
+    width:35%;
+    border:none;
+    border-radius: 5px;
+    margin-bottom:10px;
+    font-size: 1em;
+    height:35px;
+}

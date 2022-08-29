@@ -1,0 +1,62 @@
+.div-flex {
+    display:flex;
+    justify-content: space-around;
+}
+.joueur {
+    color: #ccd731;
+    font-weight: bold;
+    font-size:1.3em;
+}
+.adversaire {
+    color: #FF3333;
+    font-weight: bold;
+}
+.details {
+    display: flex;
+}
+.details-center {
+    text-align: center;
+    width: 50%;
+}
+.details-center > p {
+    margin-top:0px;
+    margin-bottom:10px;
+    font-size:1.2em;
+    font-weight: bold;
+}
+.detail-service {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.detail-service > button {
+    width:35%;
+    border:none;
+    border-radius: 5px;
+    margin-bottom:10px;
+    font-size: 1em;
+    height:35px;
+}
+.service {
+    text-align: center;
+    font-size:1.2em;
+}
+.gagnant-point-service {
+    text-align : center;
+    font-size: 1.4em;
+}
+.gagnant-point-service > span {
+    font-size: 1.6em;;
+}
+.valid-coup {
+    width:70%;
+    border:none;
+    border-radius: 5px;
+    margin-bottom:10px;
+    font-size: 1em;
+    height:40px;
+}
+.valid-coup:hover, .detail-service > button:hover {
+    background: #D3D3D3;
+    color: white;
+}

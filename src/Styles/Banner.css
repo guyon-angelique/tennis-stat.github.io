@@ -1,0 +1,17 @@
+header {
+    position: relative;
+    background-color: white;
+    height: 10vh;
+}
+
+header > img {
+    width: 10vh;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.nom-log {
+    padding-left:20px;
+    padding-top:30px;
+    font-size:2em;
+}

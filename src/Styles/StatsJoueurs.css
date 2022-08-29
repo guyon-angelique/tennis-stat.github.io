@@ -1,0 +1,27 @@
+.detail-stats-joueurs {
+    display:flex;
+    justify-content: space-between;
+}
+.detail-stats-joueurs > p {
+    width:50%;
+    text-align: center;
+    margin:0px;
+    background: rgba(250,250,250,0.5);
+}
+.detail-stats-joueurs > div {
+    width:45%;
+}
+.legende {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.detail-item {
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+}
+.detail-stats {
+    display: flex;
+    justify-content: space-between;
+}

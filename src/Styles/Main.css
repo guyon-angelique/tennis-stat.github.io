@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    cursor:pointer;
+}
+main {
+    background: url("../Assets/terrain2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 90vh;
+
+}
+nav > a {
+    width: 45%;
+    text-align:center;
+    font-size:1.5em;
+    text-decoration: none;
+}
+.not-log {
+    padding-top: 50px;
+    width:70%;
+    margin:auto;
+}
+.contenu {
+    
+    padding: 20px;
+    text-align: center;
+    background: rgba(250, 250, 250, 0.5);
+    font-size: 2em;
+}
+.valid {
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+}
+.input-log {
+    border: 1px solid #ccd731;
+    border-radius: 5px;
+    width:70%;
+    height:31px;
+    text-align: center;
+}
+.button-log {
+    border:none;
+    background-color: #ccd731;
+    border-radius: 5px;
+    width:20%;
+    height:35px;
+}
+section {
+    display:flex;
+}
+.div-left {
+    width:30%;
+}
+.div-right {
+    width:70%;
+
+}

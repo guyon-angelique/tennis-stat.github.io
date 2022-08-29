@@ -1,0 +1,69 @@
+.joueurs {
+    width:100%;
+    display:flex;
+}
+.joueurs > div {
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.compteur-stat {
+    width:90%;
+    margin:auto;
+}
+.div-item {
+    width:100%;
+    position:relative;
+    margin-bottom: 10px;
+}
+.categ-flex {
+    display:flex;
+    justify-content: space-between;
+    z-index:2;
+    position:absolute;
+    top:0px;
+    width:100%;
+}
+.categ-flex > div {
+    z-index:2;
+}
+.categ-absolute {
+    display:flex;
+    position: absolute;
+    top:0px;
+    width:100%;
+    z-index:0;
+}
+.categ-absolute > div {
+    z-index:0;
+}
+
+.item {
+    position: relative;
+    margin:0px;
+    text-align:center;
+    z-index:3;
+    color:white;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+}
+.select-style {
+    display: flex;
+    justify-content: center;
+}
+select {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align:center;
+    outline:none;
+}
+
+option {
+    background: rgb(245,222,179);
+}
+

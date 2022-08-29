@@ -1,0 +1,59 @@
+.selected {
+    background:red;
+}
+.saisie-donnees {
+    width:70%;
+    margin: auto;
+    margin-top: 50px;
+    padding:20px;
+    background-color: rgba(250,250,250,0.5);
+}
+.input-adversaire {
+    border: 1px solid #FF3333;
+    border-radius: 5px;
+    width:70%;
+    height:31px;
+    text-align: center;
+}
+.button-adversaire {
+    border:none;
+    background-color: #FF3333;
+    border-radius: 5px;
+    width:20%;
+    height:35px;
+
+}
+.adversaire {
+    height:40px;
+    font-size:1.3em;
+}
+.button-log-unselected {
+    border:none;
+    background-color: rgba(204, 215,49,0.5);
+    border-radius: 5px;
+    width:20%;
+    height:35px;
+}
+.button-adversaire-unselected {
+    border:none;
+    background-color: rgba(255,51,51,0.5);
+    border-radius: 5px;
+    width:20%;
+    height:35px;
+}
+.valid-serveur {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.debut-match {
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+}
+.button-debut-match {
+    border:none;
+    border-radius: 5px;
+    width:50%;
+    height:35px;
+}
